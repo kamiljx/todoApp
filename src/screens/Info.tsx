@@ -4,7 +4,7 @@ class Home extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text style = {styles.text}>INFO</Text>
+                <Text style = {styles.text}>Info</Text>
             </View>
         );
     }

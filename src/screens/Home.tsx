@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, Text} from 'react-native';
+import { StyleSheet, View, Text, ScrollView} from 'react-native';
+import styled from 'styled-components/native'
+import styles from '../style'
+import * as Layout from '../constants/Layout';
+import style from '../style';
+
  function Home() {
     return (
-      <View style={styles.container}>
-        <Text>home</Text>
-      </View>
+        <ScrollView >
+            <View style={styles.container}>
+                <Overlapping></Overlapping> 
+                <Text style = {styles.text}>home</Text>
+            </View>
+        </ScrollView>
     );
   }
-  
-  const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: '#fff',
-      alignItems: 'center',
-      justifyContent: 'center',
-    },
-  });
+  const Overlapping = styled.View`
+    padding: 10px 20px ${`$(Layout.default.statusBar)px`} 40px
+  `
+
 export default Home;
