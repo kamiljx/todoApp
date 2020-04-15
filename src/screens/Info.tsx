@@ -1,24 +1,29 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, Text} from 'react-native';
+import { ScrollView, View, Text} from 'react-native';
+import style from '../style';
+import { Image } from 'react-native'
+
 class Home extends Component {
     render() {
         return (
-            <View style={styles.container}>
-                <Text style = {styles.text}>Info</Text>
+            <ScrollView style={style.topBar}>
+            <View style={style.container}></View>
+              <View style={style.container}>
+                <Text style = {style.text}>Our dog</Text>
+                <Image source={require('../../assets/infoImage.jpg')} style={style.infoImage}/>
             </View>
+            <View>
+              <Text style={style.lorem}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore voluptatibus veniam natus velit sit sapiente ducimus perferendis dolores impedit. Ut culpa numquam est consequuntur eaque, tempore soluta molestiae eligendi suscipit!</Text>
+            </View>
+            <View style={style.infoContent}>
+                <View>
+                    <Text></Text>
+                </View>
+                <Image source={require('../../assets/infoImage.jpg')} style={style.infoImage}/>
+            </View>
+          </ScrollView>
         );
     }
 }
-const styles = StyleSheet.create({
-    text: {
-        color: 'red',
-        fontSize: 12,
-    },
-    container: {
-        flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'center',
-      },
-});
+
 export default Home;

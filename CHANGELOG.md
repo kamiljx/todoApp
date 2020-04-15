@@ -25,3 +25,13 @@
         List
         Info
     -styled-components/native
+## [v.0001] - 2020-04-15
+
+### Changes
+
+    - Home.tsx
+    - Info.tsx
+
+### Added
+
+    --

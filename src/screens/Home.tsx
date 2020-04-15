@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, Text, ScrollView} from 'react-native';
-import styled from 'styled-components/native'
-import styles from '../style'
-import * as Layout from '../constants/Layout';
+import {View, Text, ScrollView} from 'react-native';
 import style from '../style';
+import { Image } from 'react-native'
 
  function Home() {
     return (
-        <ScrollView >
-            <View style={styles.container}>
-                <Overlapping></Overlapping> 
-                <Text style = {styles.text}>home</Text>
-            </View>
+        <ScrollView style={style.topBar}>
+          <View style={style.viewMiddle}>
+            <Text style = {style.text}>Our dog</Text>
+            <Image source={require('../../assets/circleImage.jpg')} style={style.circleImage}/>
+          </View>
+          <View>
+            <Text style={style.lorem}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore voluptatibus veniam natus velit sit sapiente ducimus perferendis dolores impedit. Ut culpa numquam est consequuntur eaque, tempore soluta molestiae eligendi suscipit!</Text>
+            <Text style={style.lorem}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore voluptatibus veniam natus velit sit sapiente ducimus perferendis dolores impedit. Ut culpa numquam est consequuntur eaque, tempore soluta molestiae eligendi suscipit!</Text>
+          </View>
         </ScrollView>
     );
   }
-  const Overlapping = styled.View`
-    padding: 10px 20px ${`$(Layout.default.statusBar)px`} 40px
-  `
+  
 
 export default Home;
