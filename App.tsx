@@ -6,9 +6,9 @@ import { MaterialCommunityIcons } from 'react-native-vector-icons';
 import { Ionicons } from '@expo/vector-icons';
 
 
-import Home from './src/screens/Home'
-import List from './src/screens/List'
-import Info from './src/screens/Info'
+import Home from './src/screens/Home/Home'
+import List from './src/screens/List/List'
+import Info from './src/screens/Info/Info'
 
 
 const Tab = createBottomTabNavigator();

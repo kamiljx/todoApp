@@ -1,4 +1,4 @@
-## [v.0000] - 2020-02-23
+## [v.0000] - 2020-03-23
 
 ### Changes
 
@@ -10,7 +10,7 @@
 
 
 
-## [v.0000] - 2020-02-25
+## [v.0001] - 2020-03-25
 
 ### Changes
 
@@ -25,13 +25,49 @@
         List
         Info
     -styled-components/native
-## [v.0001] - 2020-04-15
+## [v.0002] - 2020-04-15
 
 ### Changes
 
     - Home.tsx
     - Info.tsx
+    - style.tsx 
 
 ### Added
 
     --
+## [v.0003] - 2020-05-23
+
+### Changes
+
+    - File struture 
+        | src 
+            | screens
+                |Home 
+                    - Home
+                |List
+                    - List  
+                |Info
+                    - Info  
+            |Style
+                - style 
+
+    -Style 
+        -   style
+### Added
+
+    - Formik
+    - | Components 
+        - item
+      | screens
+        | List
+            - NoteCreator
+
+
+
+
+
+
+
+
+
