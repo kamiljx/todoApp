@@ -82,7 +82,7 @@
     - style
 
 ### Added
-    - Screenshoots 
+    - Screenshots 
 
 
 
