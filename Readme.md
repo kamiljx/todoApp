@@ -34,3 +34,9 @@
    - you can see progress: https://expo.io/builds
 
 ## **Screens**
+
+![ov](https://raw.githubusercontent.com/kamiljx/todoApp/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-05-26%20at%2001.22.32.png?token=ALQUPU2ULI52K47NITPVW4S62WH2C)
+![ov](https://github.com/kamiljx/todoApp/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-05-26%20at%2001.26.13.png?raw=true)
+![ov](https://github.com/kamiljx/todoApp/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-05-26%20at%2001.26.31.png?raw=true)
+![ov](https://github.com/kamiljx/todoApp/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-05-26%20at%2001.21.17.png?raw=true)
+
