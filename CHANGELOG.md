@@ -80,6 +80,7 @@
 ### Changes
     
     - style
+    - readme
 
 ### Added
     - Screenshots 
