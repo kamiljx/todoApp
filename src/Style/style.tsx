@@ -31,7 +31,7 @@ export default StyleSheet.create({
       width: 250, 
       height: 150, 
       flex: 1,
-      marginLeft: 90
+      marginLeft: 130
 
     },
     topBar:

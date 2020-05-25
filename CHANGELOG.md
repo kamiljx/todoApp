@@ -68,11 +68,21 @@
 
 ### Changes
     
+    - style
+    
 ### Added
     - README
     - Splash screem
+    
 
+## [v.0005] - 2020-05-26
 
+### Changes
+    
+    - style
+
+### Added
+    - Screenshoots 
 
 
 
