@@ -23,6 +23,7 @@ export default function ReviewForm({addNote}) {
                             placeholder="Tytuł"
                             onChangeText={props.handleChange('title')}
                             value={props.values.title}
+
                         />
                         <TextInput
                             style={style.formInput}
@@ -30,6 +31,7 @@ export default function ReviewForm({addNote}) {
                             onChangeText={props.handleChange('body')}
                             value={props.values.body}
                         />
+                        
                         <TouchableOpacity onPress={props.handleSubmit}>
                             <View style={style.formButton}>
                                 <Text>Dodaj</Text>

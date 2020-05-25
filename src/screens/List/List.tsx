@@ -8,7 +8,7 @@ import TodoItem from '../../components/item';
 import ReviewForm from './NoteCreator';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { setNestedObjectValues } from 'formik';
-import { ScrollView } from 'react-native-gesture-handler';
+import { ScrollView, TextInput } from 'react-native-gesture-handler';
 
 
 
@@ -30,6 +30,9 @@ const List: FC<IListProps> = props => {
             return [note, ...curNotes];
         });
         SetModalOpen(false);
+       
+
+       
     }
       const pressHandler = (key) => {
         setTodos(prevTodos => {
@@ -60,8 +63,8 @@ const List: FC<IListProps> = props => {
                       <View style={style.containerList}>
                       <TouchableOpacity style={{marginLeft:10, marginTop:40}} onPress={()=> SetModalOpen(false)}>
                           <Icon
-                              name="chevron-left"
-                              size={30}
+                              name="undo"
+                              size={20}
                           >
                           <Text> Wróć</Text>
                           </Icon>

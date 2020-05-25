@@ -64,6 +64,13 @@
             - NoteCreator
 
 
+## [v.0004] - 2020-05-26
+
+### Changes
+    
+### Added
+    - README
+    - Splash screem
 
 
 

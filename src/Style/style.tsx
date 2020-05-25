@@ -1,6 +1,5 @@
 import { StyleSheet, NativeMethodsMixin } from 'react-native';
 import { StatusBar, Platform } from 'react-native';
-import Layout from '../constants/Layout'
 
 export default StyleSheet.create({
   container: {
@@ -27,6 +26,13 @@ export default StyleSheet.create({
     infoImage:{
       width: 250, 
       height: 150, 
+    },
+    infoImageRight:{
+      width: 250, 
+      height: 150, 
+      flex: 1,
+      marginLeft: 90
+
     },
     topBar:
     {
